@@ -63,3 +63,17 @@ li {
     border: 2px dotted;
     padding: 10px;
 }
+
+.recipetitle {
+    border: 3px solid black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    margin-left: 1px;
+}
+.recipetitle:hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
