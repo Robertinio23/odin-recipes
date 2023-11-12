@@ -1,5 +1,6 @@
 * {
     font-family: Garamond, serif;
+    box-sizing: border-box;
 }
 
 #title {
@@ -7,6 +8,11 @@
     color: white;
     font-size: 30px;
     font-weight: bold;
+    width: 50%;
+    text-align: center;
+    margin-left: 8em;
+    padding: 10px;
+
 }
 
 .recipes {
@@ -46,4 +52,14 @@
 p {
     font-size: 17px;
     font-weight: 600;
+    
+}
+
+li {
+    margin-bottom: 18px;
+}
+
+.des {
+    border: 2px dotted;
+    padding: 10px;
 }
